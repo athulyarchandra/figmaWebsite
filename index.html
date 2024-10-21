@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Figma web site</title>
+  <!-- style sheet -->
+  <link rel="stylesheet" href="./stylesheet.css">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- font awsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <nav id="nav" class="navbar navbar-expand-lg bg-body-white ">
+    <div class="container-fluid mt-5 ">
+      <a href="#nav"><img class="ms-5 ps-5 " src="./images/Logo Vector.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <form class="d-flex" role="search">
+        <input class="form-control me-5 ms-5 rounded" type="search" placeholder="Search" aria-label="Search">
+      </form>
+      <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item nav-icons ">
+            <a class="nav-link active" aria-current="page" href="#nav">Home</a>
+          </li>
+          <li class="nav-item nav-icons">
+            <a class="nav-link active" aria-current="page" href="#About">About</a>
+          </li>
+          <li class="nav-item nav-icons">
+            <a class="nav-link active" aria-current="page" href="#contact">Contact Us</a>
+          </li>
+          <li class="nav-item nav-icons">
+            <a class="nav-link active" aria-current="page" href="#">Blog</a>
+          </li>
+        </ul>
+        <div class="icons me-5">
+          <i class="px-3 fa-regular fa-heart"></i>
+          <i class="px-3 fa-solid fa-cart-shopping"></i>
+          <i class="px-3 fa-regular fa-user"></i>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+  <div id="home" class="banner bg-dark flex-wrap mt-4 d-flex justify-content-center align-items-center">
+    <div class="content me-5  mt-5">
+      <p style="color: white;">Pro.Beyond.</p>
+      <p class="text-white" style="font-size: 62px; font-weight: 100;">IPhone 14 <span class="fw-bolder">Pro</span> </p>
+      <p class="text-white">Created to change everything for the better. For everyone</p>
+      <button class="bg-dark border-white text-white px-3" py-2>Shop Now</button>
+    </div>
+    <div class="iphone-img">
+      <img src="./images/Iphone Image.png" alt="">
+    </div>
+  </div>
+  <div id="About" class="smaller-banner d-flex flex-wrap row">
+    <div class="col left-banner ">
+      <div class="col-lg wide-squre d-flex  justify-content-center align-items-center">
+        <img src="./images/PlayStation.png" alt="" class="img-fluid">
+        <div class="d-flex flex-wrap">
+          <h3>Playstation 5</h3>
+          <p>Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O will redefine your PlayStation experience.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg squre">
+        <div class="row">
+          <div class="col-lg squre-banner d-flex justify-content-center align-items-center"
+            style="background-color: #EDEDED;">
+            <img src="./images/hero__gnfk5g59t0qe_xlarge_2x 1.png" alt="">
+            <div class="ms-5">
+              <h3 class="fw-lighter">Apple
+                AirPods </h3>
+              <h3 class="fw-bolder">Max</h3>
+              <p>Computational audio. Listen, it's powerful</p>
+            </div>
+          </div>
+          <div class="col-lg squre-banner d-flex justify-content-center align-items-center"
+            style="background-color: #353535;">
+            <img src="./images/image 9.png" alt="">
+            <div class="ms-5">
+              <h3 class="fw-lighter" style="color: #FFFFFF;">Apple
+                Vision <span class="fw-bolder">Pro</span> </h3>
+              <p style="color: #FFFFFF;">An immersive way to experience entertainment</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div style="background-color: #EDEDED;" class="col right-banner  d-flex justify-content-center  align-items-center ">
+      <div class="w-50 ms-5 ">
+        <h3 class="fw-lighter">Macbook</h3>
+        <h3 class="fw-bolder"> Air</h3>
+        <p>The new 15‑inch MacBook Air makes room for more of what you love with a spacious Liquid Retina display.</p>
+        <button class=" border-black fw-bolder  text-black px-4 py-2">Shop Now</button>
+
+      </div>
+      <div class="d-flex flex-column   py-4">
+        <img class="ms-5" src="./images/Screen.png" alt="">
+        <img src="./images/Body.png" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="category py-5 d-flex flex-wrap flex-column justify-content-center align-items-center"
+    style="background-color: #FAFAFA;">
+    <div class="top w-75  d-flex flex-wrap justify-content-between">
+      <h3>Browse By Category</h3>
+      <div>
+        <i class="fa-solid fa-angle-left me-3"></i>
+        <i class="fa-solid fa-angle-right"></i>
+      </div>
+    </div>
+    <div class="categories   w-75 d-flex flex-wrap  justify-content-between align-items-center">
+      <div class="category-card   rounded mt-5  px-3 py-1" style="background-color: #EDEDED; ">
+        <img src="./images/Phones.png" alt="">
+        <p>Phones</p>
+      </div>
+      <div class="category-card rounded mt-5 px-3  py-1" style="background-color: #EDEDED; ">
+        <img src="./images/Smart Watches.png" alt="">
+        <p>Smart Watches</p>
+      </div>
+      <div class="category-card rounded mt-5 px-3  py-1" style="background-color: #EDEDED; ">
+        <img src="./images/Cameras.png" alt="">
+        <p>Cameras</p>
+      </div>
+      <div class="category-card rounded mt-5 px-3  py-1" style="background-color: #EDEDED; ">
+        <img src="./images/Headphones.png" alt="">
+        <p>Headphones</p>
+      </div>
+      <div class="category-card rounded mt-5 px-3  py-1" style="background-color: #EDEDED; ">
+        <img src="./images/Computers.png" alt="">
+        <p>Computers</p>
+      </div>
+      <div class="category-card rounded mt-5 px-3  py-1" style="background-color: #EDEDED; ">
+        <img src="./images/Gaming.png" alt="">
+        <p>Gaming</p>
+      </div>
+
+    </div>
+  </div>
+  <div class="products mt-5 p-5 d-flex flex-column justify-content-center  align-items-center">
+    <div class="tags w-75">
+      <a class="text-black active me-3" href="">New Arrival</a>
+      <a class="me-3" style="color: #8B8B8B;text-decoration: none;" href="">Bestseller</a>
+      <a style="color: #8B8B8B;text-decoration: none;" href="">Featured Products</a>
+    </div>
+    <div class="products-grid w-75 row mt-3 ">
+      <div class="col-lg   rounded-3 me-3" style="background-color: #F6F6F6;">
+        <div style="float: right;">
+          <button class="heartbtn" style="border: none;"> <img src="./images/Vector 15.png" alt="">
+          </button>
+        </div>
+        <div class="d-flex flex-column justify-content-center  align-items-center mt-5">
+          <div>
+            <img src="./images/Iphone 14 pro 1.png" alt="">
+
+          </div>
+          <p class="text-center mt-3">Apple iPhone 14 Pro Max 128GB Deep Purple </p>
+          <h4>$900</h4>
+          <button class="btn bg-dark text-white px-5"> Buy Now</button>
+        </div>
+      </div>
+      <div class="col-lg  rounded-3 me-3" style="background-color: #F6F6F6;">
+        <div style="float: right;">
+          <button class="heartbtn" style="border: none;"> <img src="./images/Vector 15.png" alt="">
+          </button>
+        </div>
+        <div class="d-flex flex-column justify-content-center  align-items-center mt-5">
+          <div>
+            <img src="./images/Iphone 14 pro 1 (1).png" alt="">
+
+          </div>
+          <p class="text-center mt-3">Blackmagic Pocket Cinema Camera 6k </p>
+          <h4>$2535</h4>
+          <button class="btn bg-dark text-white px-5"> Buy Now</button>
+        </div>
+      </div>
+      <div class="col-lg  rounded-3 me-3" style="background-color: #F6F6F6;">
+        <div style="float: right;">
+          <button class="heartbtn" style="border: none;"> <img src="./images/Vector 15.png" alt="">
+          </button>
+        </div>
+        <div class="d-flex flex-column justify-content-center  align-items-center mt-5">
+          <div>
+            <img src="./images/Iphone 14 pro 1 (2).png" alt="">
+
+          </div>
+          <p class="text-center mt-3">Apple Watch Series 9 GPS 41mm Starlight Aluminium </p>
+          <h4>$399</h4>
+          <button class="btn bg-dark text-white px-5"> Buy Now</button>
+        </div>
+      </div>
+      <div class="col-lg  rounded-3 me-3" style="background-color: #F6F6F6;">
+        <div style="float: right;">
+          <button class="heartbtn" style="border: none;"> <img src="./images/Vector 15.png" alt="">
+          </button>
+        </div>
+        <div class="d-flex flex-column justify-content-center  align-items-center mt-5">
+          <div>
+            <img src="./images/Iphone 14 pro 1 (3).png" alt="">
+
+          </div>
+          <p class="text-center mt-3">AirPods Max Silver
+            Starlight Aluminium </p>
+          <h4>$549</h4>
+          <button class="btn bg-dark text-white px-5"> Buy Now</button>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="products-grid w-75 row mt-3 ">
+      <div class="col-lg   rounded-3 me-3" style="background-color: #F6F6F6;">
+        <div style="float: right;">
+          <button class="heartbtn" style="border: none;"> <img src="./images/Vector 15.png" alt="">
+          </button>
+        </div>
+        <div class="d-flex flex-column justify-content-center  align-items-center mt-5">
+          <div>
+            <img src="./images/Iphone 14 pro 1 (4).png" alt="">
+
+          </div>
+          <p class="text-center mt-3">Samsung Galaxy Watch6 Classic 47mm Black </p>
+          <h4>$369</h4>
+          <button class="btn bg-dark text-white px-5"> Buy Now</button>
+        </div>
+      </div>
+      <div class="col-lg  rounded-3 me-3" style="background-color: #F6F6F6;">
+        <div style="float: right;">
+          <button class="heartbtn" style="border: none;"> <img src="./images/Vector 15.png" alt="">
+          </button>
+        </div>
+        <div class="d-flex flex-column justify-content-center  align-items-center mt-5">
+          <div>
+            <img src="./images/Iphone 14 pro 1 (5).png" alt="">
+
+          </div>
+          <p class="text-center mt-3">Galaxy Z Fold5 Unlocked | 256GB | Phantom Black</p>
+          <h4>$1799</h4>
+          <button class="btn bg-dark text-white px-5"> Buy Now</button>
+        </div>
+      </div>
+      <div class="col-lg  rounded-3 me-3" style="background-color: #F6F6F6;">
+        <div style="float: right;">
+          <button class="heartbtn" style="border: none;"> <img src="./images/Vector 15.png" alt="">
+          </button>
+        </div>
+        <div class="d-flex flex-column justify-content-center  align-items-center mt-5">
+          <div>
+            <img src="./images/Iphone 14 pro 1 (6).png" alt="">
+
+          </div>
+          <p class="text-center mt-3">Galaxy Buds FE
+            Graphite </p>
+          <h4>$99.99</h4>
+          <button class="btn bg-dark text-white px-5 mt-4"> Buy Now</button>
+        </div>
+      </div>
+      <div class="col-lg  rounded-3 me-3" style="background-color: #F6F6F6;">
+        <div style="float: right;">
+          <button class="heartbtn" style="border: none;"> <img src="./images/Vector 15.png" alt="">
+          </button>
+        </div>
+        <div class="d-flex flex-column justify-content-center  align-items-center mt-5">
+          <div>
+            <img src="./images/Iphone 14 pro 1 (7).png" alt="">
+
+          </div>
+          <p class="text-center mt-3">Apple iPad 9 10.2" 64GB Wi-Fi Silver (MK2L3) 2021 </p>
+          <h4>$398</h4>
+          <button class="btn bg-dark text-white px-5"> Buy Now</button>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  <div class="banners d-flex row flex-wrap">
+    <div class="big-banner col-lg d-flex flex-column justify-content-center  align-items-center">
+      <div class="productgrp">
+        <img style="position: absolute; margin-left: 6rem; margin-top: 8rem;" src="./images/image 8.png" alt="">
+        <img src="./images/image10.png" alt="">
+      </div>
+      <div class="productcontent w-75">
+        <h4>Popular Products</h4>
+        <p>iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
+        <button class="btn border px-4 border-black text-black ">Shop Now</button>
+      </div>
+    </div>
+    <div class="big-banner col-lg d-flex flex-column justify-content-center  align-items-center" style="background-color: #F9F9F9;">
+      <div class="productgrp">
+        <img src="./images/image12.png" alt="">
+      </div>
+      <div class="productcontent w-75">
+        <h4>Ipad Pro</h4>
+        <p>iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
+        <button class="btn border px-4 border-black text-black ">Shop Now</button>
+      </div>
+    </div>
+    <div class="big-banner col-lg d-flex flex-column justify-content-center  align-items-center" style="background-color: #EAEAEA;">
+      <div class="productgrp">
+        <img src="./images/image11.png" alt="">
+      </div>
+      <div class="productcontent w-75">
+        <h4>Samsung Galaxy </h4>
+        <p>iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
+        <button class="btn border px-4 border-black text-black ">Shop Now</button>
+      </div>
+    </div>
+    <div class="big-banner col-lg d-flex flex-column justify-content-center  align-items-center" style="background-color: #2C2C2C;">
+      <div class="productgrp">
+        <img src="./images/Macbook 1.png" alt="">
+      </div>
+      <div class="productcontent w-75">
+        <h4 class="text-white">Macbook Pro</h4>
+        <p style="color: #909090;">iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
+        <button class="btn border px-4 border-white text-white ">Shop Now</button>
+      </div>
+    </div>
+  </div>
+  <div class="discountproducts mt-5 py-5 d-flex flex-column justify-content-center  align-items-center ">
+    <h3 >Discounts up to -50%</h3>
+    <div class="products-grid w-75 row mt-3 ">
+      <div class="col-lg   rounded-3 me-3" style="background-color: #F6F6F6;">
+        <div style="float: right;">
+          <button class="heartbtn" style="border: none;"> <img src="./images/Vector 15.png" alt="">
+          </button>
+        </div>
+        <div class="d-flex flex-column justify-content-center  align-items-center mt-5">
+          <div>
+            <img src="./images/Iphone 14 pro .png" alt="">
+
+          </div>
+          <p class="text-center mt-3">Apple iPhone 14 Pro Max 128GB Deep Purple </p>
+          <h4>$900</h4>
+          <button class="btn bg-dark text-white px-5"> Buy Now</button>
+        </div>
+      </div>
+      <div class="col-lg  rounded-3 me-3" style="background-color: #F6F6F6;">
+        <div style="float: right;">
+          <button class="heartbtn" style="border: none;"> <img src="./images/Vector 15.png" alt="">
+          </button>
+        </div>
+        <div class="d-flex flex-column justify-content-center  align-items-center mt-5">
+          <div>
+            <img src="./images/Iphone 14 pro 1 (2).png" alt="">
+
+          </div>
+          <p class="text-center mt-3">Apple Watch Series 9 GPS 41mm Starlight Aluminium</p>
+          <h4>$2535</h4>
+          <button class="btn bg-dark text-white px-5"> Buy Now</button>
+        </div>
+      </div>
+      <div class="col-lg  rounded-3 me-3" style="background-color: #F6F6F6;">
+        <div style="float: right;">
+          <button class="heartbtn" style="border: none;"> <img src="./images/Vector 15.png" alt="">
+          </button>
+        </div>
+        <div class="d-flex flex-column justify-content-center  align-items-center mt-5">
+          <div>
+            <img src="./images/Iphone 14 pro 1 (3).png" alt="">
+
+          </div>
+          <p class="text-center mt-3">Blackmagic Pocket Cinema Camera 6k </p>
+          <h4>$399</h4>
+          <button class="btn bg-dark text-white px-5"> Buy Now</button>
+        </div>
+      </div>
+      <div class="col-lg  rounded-3 me-3" style="background-color: #F6F6F6;">
+        <div style="float: right;">
+          <button class="heartbtn" style="border: none;"> <img src="./images/Vector 15.png" alt="">
+          </button>
+        </div>
+        <div class="d-flex flex-column justify-content-center  align-items-center mt-5">
+          <div>
+            <img src="./images/Iphone 14 pro 1.png" alt="">
+
+          </div>
+          <p class="text-center mt-3">AirPods Max Silver
+            Starlight Aluminium </p>
+          <h4>$549</h4>
+          <button class="btn bg-dark text-white px-5"> Buy Now</button>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  <div class="banner2 mt-5">
+    <img class="img-fluid" style="width: 100%;" src="./images/Banner 2.png" alt="">
+  </div>
+  <div id="contact"  class="footer bg-black py-5">
+    <div class="info pt-5 d-flex flex-wrap  justify-content-evenly  align-items-center">
+      <div class="logo w-25">
+        <a href="#nav"><img src="./images/Logo Vector1.png" alt=""></a>
+        <p class="mt-5" style="color: #CFCFCF;">We are a residential interior design firm located in Portland. Our boutique-studio offers more than</p>
+      </div>
+      <div class="footernavigation d-flex flex-wrap justify-content-evenly  align-items-center ">
+        <div class="section1">
+          <h4 class="text-white">Services</h4>
+          <div class="d-flex flex-column">
+            <a class="mt-5" style="color: #CFCFCF; text-decoration: none;" href="">Bonus program</a>
+            <a class="mt-3" style="color: #CFCFCF; text-decoration: none;" href="">Gift cards</a>
+            <a class="mt-3" style="color: #CFCFCF; text-decoration: none;" href="">Credit and payment</a>
+            <a class="mt-3" style="color: #CFCFCF; text-decoration: none;" href="">Service contracts</a>
+            <a class="mt-3" style="color: #CFCFCF; text-decoration: none;" href="">Non-cash account</a>
+            <a class="mt-3" style="color: #CFCFCF; text-decoration: none;" href="">Payment</a>
+
+          </div>
+          
+        </div>
+        <div class="section1 ms-5 px-5">
+          <h4 class="text-white">Assistance to the buyer</h4>
+          <div class="d-flex flex-column">
+            <a class="mt-5" style="color: #CFCFCF; text-decoration: none;" href="">Find an order</a>
+            <a class="mt-3" style="color: #CFCFCF; text-decoration: none;" href="">Terms of delivery</a>
+            <a class="mt-3" style="color: #CFCFCF; text-decoration: none;" href="">Exchange and return of goods</a>
+            <a class="mt-3" style="color: #CFCFCF; text-decoration: none;" href="">Guarantee</a>
+            <a class="mt-3" style="color: #CFCFCF; text-decoration: none;" href="">Frequently asked questions</a>
+            <a class="mt-3" style="color: #CFCFCF; text-decoration: none;" href="">Terms of use of the site</a>
+
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="social-icons d-flex  justify-content-center m-5  p-5 align-items-center">
+      <i class="fa-brands fa-twitter text-white me-4"></i>
+      <i class="fa-brands fa-facebook text-white me-4"></i>
+      <i class="fa-brands fa-tiktok text-white me-4"></i>
+      <i class="fa-brands fa-instagram text-white me-4"></i>
+
+    </div>
+  </div>
+
+
+</body>
+<!-- bootstrap script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</html>

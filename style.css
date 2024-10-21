@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav-icons a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.icons i{
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.content{
+    line-height: 30px;
+}
+.category-card{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-banner{
+    /* width:25%; */
+
+    height: 35rem;
+}
+.productgrp{
+    height: 25rem;
+}
